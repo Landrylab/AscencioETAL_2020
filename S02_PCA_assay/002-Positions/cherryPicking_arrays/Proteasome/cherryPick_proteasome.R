@@ -1,3 +1,8 @@
+########################################################################################
+###Create a cherry picking array for the robot of the proteasome strains   ############
+########################################################################################
+
+
 lib = read.csv2("Proteasome_config.csv")
 
 present = lib[lib$Present == 1,]
