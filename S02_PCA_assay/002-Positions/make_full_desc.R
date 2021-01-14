@@ -1,4 +1,7 @@
-# picture description
+###################################################################
+###Create a picture index for the whole experiment DHFR-PCA #######
+###################################################################
+
 pic = read.delim("Plate_configuration.txt")
 
 # proteasome arrays - apparently, quadrant B and C of array 2 have been inverted somewhere, need to correct that
