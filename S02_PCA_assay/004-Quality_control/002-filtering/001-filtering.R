@@ -1,4 +1,6 @@
-setwd("C:/Users/Diana Ascencio/Dropbox/ExpDup_paper_DIAS/DataAnalysis/PPI/004-Quality_control/001-correct_position_bias/")
+########################################################################################
+### Quality Control DHFR-PCA: filtering of abnormal colonies                ############
+########################################################################################
 # load data
 load("../../003-Load_IJ/IJ.Rdata")
 load("../001-correct_position_bias/polished_data.Rdata")
