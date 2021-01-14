@@ -1,3 +1,8 @@
+########################################################################################
+###Create a cherry picking array for the robot of the RNA polymerase strains   #########
+########################################################################################
+
+
 lib = read.csv2("RNApolconfig.csv")
 
 present = lib[lib$Present == 1,]
