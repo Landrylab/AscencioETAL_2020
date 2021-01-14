@@ -1,3 +1,7 @@
+########################################################################################
+###Create a cherry picking array for the robot of the Flull-legth strains   ############
+########################################################################################
+
 a = read.csv2("FullLength_config.csv")
 a = cbind(id = 1:384,a)
 tmp = strsplit(a$Position,"")
