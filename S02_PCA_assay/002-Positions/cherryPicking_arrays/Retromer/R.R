@@ -1,3 +1,7 @@
+########################################################################################
+###Create a cherry picking array for the robot of the Retromer strains      ############
+########################################################################################
+
 a = read.csv2("Retromer_config.csv")
 a$id2 = paste(a$id,a$MoBY.plasmid,sep="_")
 
